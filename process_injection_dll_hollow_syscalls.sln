@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "process_injection_dll_hollow_syscalls", "process_injection_dll_hollow_syscalls\process_injection_dll_hollow_syscalls.vcxproj", "{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bypass CFG (NTDLL Patch)|x64 = Bypass CFG (NTDLL Patch)|x64
+		Bypass CFG (NTDLL Patch)|x86 = Bypass CFG (NTDLL Patch)|x86
+		Bypass CFG(ThreadCTX)|x64 = Bypass CFG(ThreadCTX)|x64
+		Bypass CFG(ThreadCTX)|x86 = Bypass CFG(ThreadCTX)|x86
+		CFG Disabled|x64 = CFG Disabled|x64
+		CFG Disabled|x86 = CFG Disabled|x86
+		CFG Enabled|x64 = CFG Enabled|x64
+		CFG Enabled|x86 = CFG Enabled|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG (NTDLL Patch)|x64.ActiveCfg = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG (NTDLL Patch)|x64.Build.0 = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG (NTDLL Patch)|x86.ActiveCfg = Bypass CFG (NTDLL Patch)|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG (NTDLL Patch)|x86.Build.0 = Bypass CFG (NTDLL Patch)|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG(ThreadCTX)|x64.ActiveCfg = CFG Enabled - Bypass CFG( Thread CTX)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG(ThreadCTX)|x64.Build.0 = CFG Enabled - Bypass CFG( Thread CTX)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG(ThreadCTX)|x86.ActiveCfg = CFG Enabled - Bypass CFG( Thread CTX)|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Bypass CFG(ThreadCTX)|x86.Build.0 = CFG Enabled - Bypass CFG( Thread CTX)|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Disabled|x64.ActiveCfg = CFG Disabled|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Disabled|x64.Build.0 = CFG Disabled|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Disabled|x86.ActiveCfg = CFG Disabled|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Disabled|x86.Build.0 = CFG Disabled|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Enabled|x64.ActiveCfg = CFG Enabled|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Enabled|x64.Build.0 = CFG Enabled|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Enabled|x86.ActiveCfg = CFG Enabled|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.CFG Enabled|x86.Build.0 = CFG Enabled|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Debug|x64.ActiveCfg = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Debug|x64.Build.0 = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Debug|x86.ActiveCfg = Debug|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Debug|x86.Build.0 = Debug|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Release|x64.ActiveCfg = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Release|x64.Build.0 = Bypass CFG (NTDLL Patch)|x64
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Release|x86.ActiveCfg = Release|Win32
+		{A2EFAB2F-84D0-419A-8DE7-9CA18092BC47}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCD19C82-6079-477C-B525-200942E8695D}
+	EndGlobalSection
+EndGlobal
